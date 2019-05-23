@@ -135,19 +135,21 @@ body section.page > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(1)
 html section.page > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2),
 body section.page > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) {
   width: 6.25rem;
-  height: 7.12rem;
+  height: 7.21rem;
   display: flex;
   align-items: flex-end;
 }
 html section.page > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > ul,
 body section.page > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > ul {
-  height: 6.69rem;
+  width: 6.21rem;
+  height: 6.8rem;
   overflow-y: scroll;
+  font-size: .22rem;
 }
 html section.page > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > ul > li,
 body section.page > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > ul > li {
   text-align: justify;
-  line-height: .5rem;
+  line-height: .45rem;
 }
 html section.mask,
 body section.mask {
