@@ -4,7 +4,7 @@ html,body{
         min-height: 100%;
         color: #fff1b6;
         font-family: '微软雅黑';
-        section.page{
+        section.page,section.page_two{
             >div{
                 &:nth-child(1){
                     width: 7.5rem;
@@ -18,7 +18,7 @@ html,body{
                         left: 0;
                         right: 0;
                         margin: auto;
-                        width: 7.28rem;
+                        width: 7.09rem;
                         height: 2.28rem;
                         background: url('../images/f_title.png') no-repeat;
                         background-size: cover;
@@ -43,7 +43,7 @@ html,body{
                         width: 6.76rem;
                         height: 18.91rem;
                         border-radius: .2rem;
-                       padding: .42rem 0;
+                        padding: .42rem 0;
                         box-sizing: border-box;
                         background-color: #1e1209;
                         >div{
@@ -59,6 +59,13 @@ html,body{
                                 justify-content: space-between;
                                 align-items: center;
                                 font-size: .24rem;
+                                >p{
+                                    &:nth-child(3){
+                                        >span{
+                                            color: #eca31f;
+                                        }
+                                    }
+                                }
                             }
                             &:nth-child(2){
                                 >div{
@@ -144,6 +151,24 @@ html,body{
                         }
                        
                     }
+                }
+            }
+        }
+        //200返2000
+        section.page_two{
+            >div{
+                &:nth-child(1){
+                    >p{
+                        position: absolute;
+                        top:.74rem;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        width: 7.09rem;
+                        height: 2.28rem;
+                        background: url('../images/s_title.png') no-repeat;
+                        background-size: cover;
+                    }    
                 }
             }
         }
