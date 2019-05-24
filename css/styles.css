@@ -38,8 +38,8 @@ body section.page > div:nth-child(2),
 html section.page_two > div:nth-child(2),
 body section.page_two > div:nth-child(2) {
   width: 6.88rem;
-  height: 21.65rem;
-  background: url('../images/biankuang.png') no-repeat;
+  height: 20.38rem;
+  background: url('../images/biankuang_1000.png') no-repeat;
   background-size: cover;
   overflow: hidden;
   display: flex;
@@ -57,7 +57,7 @@ body section.page > div:nth-child(2) > div,
 html section.page_two > div:nth-child(2) > div,
 body section.page_two > div:nth-child(2) > div {
   width: 6.76rem;
-  height: 21.55rem;
+  height: 20.25rem;
   border-radius: .2rem;
   padding: .42rem 0;
   box-sizing: border-box;
@@ -197,6 +197,32 @@ body section.page_two > div:nth-child(1) > p {
   height: 2.28rem;
   background: url('../images/s_title.png') no-repeat;
   background-size: cover;
+}
+html section.page_two > div:nth-child(2),
+body section.page_two > div:nth-child(2) {
+  width: 6.88rem;
+  height: 21.65rem;
+  background: url('../images/biankuang.png') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -0.77rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+}
+html section.page_two > div:nth-child(2) > div,
+body section.page_two > div:nth-child(2) > div {
+  width: 6.76rem;
+  height: 21.55rem;
+  border-radius: .2rem;
+  padding: .42rem 0;
+  box-sizing: border-box;
+  background-color: #1e1209;
 }
 html section.mask,
 body section.mask {
